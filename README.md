@@ -1,4 +1,4 @@
-# How to ZIP multiple files into individual archives ![](https://github.com/pesceknhk/misc-projects)
+# How to ZIP multiple files into individual archives ![](https://github.com/pesceknhk/how-to-zip-multiple-files)
 50 Lines of code to automate multiple files archiving into individual archives.
 
 # Description
