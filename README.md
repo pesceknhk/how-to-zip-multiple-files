@@ -3,7 +3,7 @@
 
 # Description
 This automation script takes directory name as input parameter. l_dirname is the variable. pass the full directory path (which contains files to be archived individually).
-For example: (Windows: C:\\Users\\xyz,  Linux: /usr/tmp/)
+For example: (Windows: C:\\\Users\\\xyz,  Linux: /usr/tmp/)
 
 ## How to use
 1. Download or clone this repository.
