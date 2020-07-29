@@ -1,2 +1,1 @@
-# misc-projects
-Miscellanous projects
+# Huge collection of new projects
