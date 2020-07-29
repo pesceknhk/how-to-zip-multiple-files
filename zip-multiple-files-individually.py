@@ -27,7 +27,8 @@ def zipfilesindir(dirname, zipfilename):
 
 print('Calling zipfilesindir function ....')
 # give the complete folder/subfolder path
-l_dirname = 'C:\\Users\\hemanth.nanjundappa\\logs'
+l_dirname = 'Test-Folder'
+l_extension = '.zip'
 whats_the_count = 0
 # loop each files in the l_dirname
 for foldername, subfolders, filenames in os.walk(l_dirname):
@@ -35,7 +36,7 @@ for foldername, subfolders, filenames in os.walk(l_dirname):
     for filename in filenames:
         whats_the_count += 1
         try:
-            l_zipname = filename + '.zip'
+            l_zipname = filename + l_extension
         except UnicodeEncodeError:
             l_zipname = 'xxxxxxxxxxxxx'
         # call the zipfilesindir function for each file
